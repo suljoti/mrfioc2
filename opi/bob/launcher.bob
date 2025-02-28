@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-15 15:55:13 by rhong-->
+<!--Saved on 2025-02-28 10:30:23 by suljoti-->
 <display version="2.0.0">
   <name>BESSY MRF Timing System</name>
   <width>200</width>
@@ -48,8 +48,8 @@
       <action type="open_display">
         <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>EVM1-1W1S15G</P>
-          <TITLE>EVM1-1W1S15G</TITLE>
+          <P>EVM1-1W2S15G</P>
+          <TITLE>EVM1-1W2S15G</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
@@ -57,9 +57,10 @@
     </actions>
     <text>EVM1-1W1S15G</text>
     <x>20</x>
-    <y>180</y>
+    <y>176</y>
     <width>170</width>
     <height>40</height>
+    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_2</name>
