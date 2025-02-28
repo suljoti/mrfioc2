@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Saved on 2024-10-15 15:55:13 by rhong-->
 <display version="2.0.0">
-  <name>Launcher timing Labo</name>
+  <name>BESSY MRF Timing System</name>
   <width>200</width>
   <height>500</height>
   <widget type="action_button" version="3.0.0">
@@ -10,16 +10,35 @@
       <action type="open_display">
         <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>Labo:titan-EVM</P>
-          <TITLE>EVM Demo</TITLE>
+          <P>EVM1-1W2S15G</P>
+          <TITLE>EVM1-1W2S15G</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
       </action>
     </actions>
-    <text>MTCA EVM300</text>
-    <x>16</x>
-    <y>70</y>
+    <text>EVM1-1W1S14G</text>
+    <x>20</x>
+    <y>50</y>
+    <width>170</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <actions>
+      <action type="open_display">
+        <file>evr/evr-mtca-300u.bob</file>
+        <macros>
+          <P>EVR1-1W1S14G</P>
+          <TITLE>EVR1-1W1S14G</TITLE>
+        </macros>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>EVR1-1W1S14G</text>
+    <x>20</x>
+    <y>90</y>
     <width>170</width>
     <tooltip>$(actions)</tooltip>
   </widget>
@@ -27,75 +46,37 @@
     <name>Action Button_1</name>
     <actions>
       <action type="open_display">
-        <file>evr/evr-mtca-300u.bob</file>
+        <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>Labo:titan-EVR</P>
-          <TITLE>EVR Demo</TITLE>
+          <P>EVM1-1W1S15G</P>
+          <TITLE>EVM1-1W1S15G</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
       </action>
     </actions>
-    <text>MTCA EVR300U</text>
-    <x>16</x>
-    <y>110</y>
-    <width>170</width>
-    <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label</name>
-    <text>change Macro of the button to change PV prefix</text>
-    <x>16</x>
-    <y>10</y>
+    <text>EVM1-1W1S15G</text>
+    <x>20</x>
+    <y>180</y>
     <width>170</width>
     <height>40</height>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_2</name>
     <actions>
-    </actions>
-    <text>Other modesl = PR</text>
-    <x>16</x>
-    <y>230</y>
-    <width>170</width>
-    <tooltip>$(actions)</tooltip>
-    <enabled>false</enabled>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button_4</name>
-    <actions>
       <action type="open_display">
-        <file>evr/evr-mtca-300.bob</file>
+        <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>Labo:titan-EVR</P>
-          <TITLE>EVR Demo</TITLE>
+          <P>EVF1-1W1X250C</P>
+          <TITLE>EVF1-1W1X250C</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
       </action>
     </actions>
-    <text>MTCA EVR300</text>
-    <x>16</x>
-    <y>150</y>
-    <width>170</width>
-    <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>Action Button_5</name>
-    <actions>
-      <action type="open_display">
-        <file>evr/evr-pcie-300dc.bob</file>
-        <macros>
-          <P>Labo:titan-PCIEVR</P>
-          <TITLE>EVR Demo</TITLE>
-        </macros>
-        <target>tab</target>
-        <description>Open Display</description>
-      </action>
-    </actions>
-    <text>PCIe EVR300</text>
-    <x>16</x>
-    <y>190</y>
+    <text>EVF1-1W1C250C</text>
+    <x>20</x>
+    <y>220</y>
     <width>170</width>
     <tooltip>$(actions)</tooltip>
   </widget>
@@ -103,18 +84,37 @@
     <name>Action Button_3</name>
     <actions>
       <action type="open_display">
-        <file>evg/evm-vme-300.bob</file>
+        <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>Labo:titan-EVM</P>
-          <TITLE>EVM DEMO</TITLE>
+          <P>EVF2-1W1X250C</P>
+          <TITLE>EVF2-1W1X250C</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
       </action>
     </actions>
-    <text>VME EVM300</text>
-    <x>16</x>
-    <y>270</y>
+    <text>EVF2-1W1C250C</text>
+    <x>20</x>
+    <y>260</y>
+    <width>170</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="open_display">
+        <file>evg/evm-mtca-300.bob</file>
+        <macros>
+          <P>EVF3-1W1X250C</P>
+          <TITLE>EVF3-1W1X250C</TITLE>
+        </macros>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>EVF3-1W1C250C</text>
+    <x>20</x>
+    <y>300</y>
     <width>170</width>
     <tooltip>$(actions)</tooltip>
   </widget>
@@ -122,18 +122,89 @@
     <name>Action Button_6</name>
     <actions>
       <action type="open_display">
-        <file>evr/evr-vme-300.bob</file>
+        <file>evg/evm-mtca-300.bob</file>
         <macros>
-          <P>Labo:titan-EVR</P>
-          <TITLE>EVR Demo</TITLE>
+          <P>EVF4-1W1X250C</P>
+          <TITLE>EVF4-1W1X250C</TITLE>
         </macros>
         <target>tab</target>
         <description>Open Display</description>
       </action>
     </actions>
-    <text>VME EVR300</text>
-    <x>16</x>
-    <y>310</y>
+    <text>EVF4-1W1C250C</text>
+    <x>20</x>
+    <y>340</y>
+    <width>170</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_7</name>
+    <actions>
+      <action type="open_display">
+        <file>evg/evm-mtca-300.bob</file>
+        <macros>
+          <P>EVF5-1W1X250C</P>
+          <TITLE>EVF5-1W1X250C</TITLE>
+        </macros>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>EVF5-1W1C250C</text>
+    <x>20</x>
+    <y>380</y>
+    <width>170</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>BESSY Timing</text>
+    <x>40</x>
+    <y>150</y>
+    <width>110</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>FOFB Timing</text>
+    <x>30</x>
+    <y>10</y>
+    <width>110</width>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_8</name>
+    <actions>
+      <action type="open_display">
+        <file>evr/evr-mtca-300u.bob</file>
+        <macros>
+          <P>EVR1-1W1S3G</P>
+          <TITLE>EVR1-1W1S3G</TITLE>
+        </macros>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>EVR1-1W1S3G</text>
+    <x>230</x>
+    <y>180</y>
+    <width>170</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_9</name>
+    <actions>
+      <action type="open_display">
+        <file>evr/evr-mtca-300u.bob</file>
+        <macros>
+          <P>EVR1-1W1S10G</P>
+          <TITLE>EVR1-1W1S10G</TITLE>
+        </macros>
+        <target>tab</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text>EVR1-1W1S10G</text>
+    <x>230</x>
+    <y>220</y>
     <width>170</width>
     <tooltip>$(actions)</tooltip>
   </widget>
