@@ -28,7 +28,7 @@
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="3.0.0">
+  <widget type="group" version="2.0.0">
     <name>Global</name>
     <x>575</x>
     <y>64</y>
@@ -39,14 +39,6 @@
       <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
       </font>
     </font>
-    <foreground_color>
-      <color name="Header_2_ForeGround" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <line_color>
-      <color name="Header_2_Background" red="114" green="159" blue="207">
-      </color>
-    </line_color>
     <background_color>
       <color name="Group_Background" red="240" green="240" blue="240">
       </color>
@@ -412,10 +404,6 @@
       <color name="Header_2_ForeGround" red="255" green="255" blue="255">
       </color>
     </foreground_color>
-    <line_color>
-      <color name="Header_2_Background" red="114" green="159" blue="207">
-      </color>
-    </line_color>
     <background_color>
       <color name="Group_Background" red="240" green="240" blue="240">
       </color>
@@ -524,10 +512,6 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
-    <line_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </line_color>
     <actions>
     </actions>
     <widget type="label" version="2.0.0">
@@ -547,7 +531,7 @@
         </color>
       </foreground_color>
       <background_color>
-        <color name="Header_Background" red="52" green="101" blue="164">
+        <color name="Header_Background" red="77" green="77" blue="77">
         </color>
       </background_color>
       <transparent>false</transparent>
@@ -593,14 +577,6 @@ $(pv_value)</tooltip>
       <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
       </font>
     </font>
-    <foreground_color>
-      <color name="Header_2_ForeGround" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <line_color>
-      <color name="Header_2_Background" red="114" green="159" blue="207">
-      </color>
-    </line_color>
     <background_color>
       <color name="Group_Background" red="240" green="240" blue="240">
       </color>
@@ -610,8 +586,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_6</name>
       <macros>
-        <N>6</N>
         <GEN>DlyGen6</GEN>
+        <N>6</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -630,8 +606,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_8</name>
       <macros>
-        <N>8</N>
         <GEN>DlyGen8</GEN>
+        <N>8</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -650,8 +626,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_3</name>
       <macros>
-        <N>3</N>
         <GEN>DlyGen3</GEN>
+        <N>3</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -670,8 +646,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_7</name>
       <macros>
-        <N>7</N>
         <GEN>DlyGen7</GEN>
+        <N>7</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -690,8 +666,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_9</name>
       <macros>
-        <N>9</N>
         <GEN>DlyGen9</GEN>
+        <N>9</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -710,7 +686,6 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_5</name>
       <macros>
-        <N>5</N>
         <GEN>DlyGen5</GEN>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
@@ -730,8 +705,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_4</name>
       <macros>
-        <N>4</N>
         <GEN>DlyGen4</GEN>
+        <N>4</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -750,8 +725,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_2</name>
       <macros>
-        <N>2</N>
         <GEN>DlyGen2</GEN>
+        <N>2</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -770,8 +745,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_1</name>
       <macros>
-        <N>1</N>
         <GEN>DlyGen1</GEN>
+        <N>1</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -790,8 +765,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container</name>
       <macros>
-        <N>0</N>
         <GEN>DlyGen0</GEN>
+        <N>0</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -902,8 +877,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_10</name>
       <macros>
-        <N>10</N>
         <GEN>DlyGen10</GEN>
+        <N>10</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -922,8 +897,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_10</name>
       <macros>
-        <N>11</N>
         <GEN>DlyGen11</GEN>
+        <N>11</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -942,8 +917,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_11</name>
       <macros>
-        <N>13</N>
         <GEN>DlyGen13</GEN>
+        <N>13</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -962,8 +937,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_12</name>
       <macros>
-        <N>12</N>
         <GEN>DlyGen12</GEN>
+        <N>12</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -982,8 +957,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_13</name>
       <macros>
-        <N>14</N>
         <GEN>DlyGen14</GEN>
+        <N>14</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>
@@ -1002,8 +977,8 @@ $(pv_value)</tooltip>
     <widget type="embedded" version="2.0.0">
       <name>Linking Container_14</name>
       <macros>
-        <N>15</N>
         <GEN>DlyGen15</GEN>
+        <N>15</N>
       </macros>
       <file>../evr/_evrdlygen.bob</file>
       <x>12</x>

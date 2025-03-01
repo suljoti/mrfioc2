@@ -27,10 +27,6 @@
     <pv_name>$(P):TrigEvt$(N)EvtCode-SP</pv_name>
     <x>79</x>
     <width>48</width>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <actions>
     </actions>

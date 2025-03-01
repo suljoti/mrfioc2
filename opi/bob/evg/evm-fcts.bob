@@ -15,12 +15,8 @@
     <pv_name>$(P):FCTMsrdUp-I</pv_name>
     <x>630</x>
     <y>39</y>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="Write_Background" red="120" green="120" blue="120">
+      <color name="Write_Background" red="204" green="230" blue="255">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -37,12 +33,8 @@
     <pv_name>$(P):FCTMsrdFIFO-I</pv_name>
     <x>630</x>
     <y>63</y>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="Write_Background" red="120" green="120" blue="120">
+      <color name="Write_Background" red="204" green="230" blue="255">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -59,12 +51,8 @@
     <pv_name>$(P):FCTMsrdInt-I</pv_name>
     <x>630</x>
     <y>87</y>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="Write_Background" red="120" green="120" blue="120">
+      <color name="Write_Background" red="204" green="230" blue="255">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -81,12 +69,8 @@
     <pv_name>$(P):FCTID-I</pv_name>
     <x>513</x>
     <y>39</y>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="Write_Background" red="120" green="120" blue="120">
+      <color name="Write_Background" red="204" green="230" blue="255">
       </color>
     </background_color>
     <format>4</format>
@@ -116,7 +100,7 @@
       </color>
     </foreground_color>
     <background_color>
-      <color name="Header_Background" red="52" green="101" blue="164">
+      <color name="Header_Background" red="77" green="77" blue="77">
       </color>
     </background_color>
     <transparent>false</transparent>
@@ -168,22 +152,22 @@ $(pv_value)</tooltip>
     <instances>
       <instance>
         <macros>
-          <NUM>1</NUM>
+          <NUM>5</NUM>
         </macros>
       </instance>
       <instance>
         <macros>
-          <NUM>2</NUM>
+          <NUM>6</NUM>
         </macros>
       </instance>
       <instance>
         <macros>
-          <NUM>3</NUM>
+          <NUM>7</NUM>
         </macros>
       </instance>
       <instance>
         <macros>
-          <NUM>4</NUM>
+          <NUM>8</NUM>
         </macros>
       </instance>
     </instances>
