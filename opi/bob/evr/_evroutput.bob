@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-01-18 17:42:13 by agaget-->
+<!--Saved on 2025-03-03 08:01:10 by suljoti-->
 <display version="2.0.0">
   <name>Display</name>
   <width>505</width>
@@ -62,10 +62,6 @@
     <y>24</y>
     <width>415</width>
     <height>25</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <format>6</format>
     <actions>
     </actions>

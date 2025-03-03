@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Saved on 2024-01-10 17:29:02 by agaget-->
-<display version="2.0.0">
+<display version="3.0.0">
   <name>evr_input</name>
   <width>149</width>
   <height>134</height>
@@ -15,18 +15,14 @@
     <y>113</y>
     <width>53</width>
     <height>21</height>
-    <foreground_color>
-      <color name="InputText" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="InputBackground" red="120" green="120" blue="120">
+      <color name="InputBackground" red="204" green="230" blue="255">
       </color>
     </background_color>
     <actions>
     </actions>
     <border_color>
-      <color red="0" green="128" blue="255">
+      <color red="0" green="0" blue="255">
       </color>
     </border_color>
   </widget>
@@ -37,12 +33,8 @@
     <y>113</y>
     <width>53</width>
     <height>21</height>
-    <foreground_color>
-      <color name="InputText" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="InputBackground" red="120" green="120" blue="120">
+      <color name="InputBackground" red="204" green="230" blue="255">
       </color>
     </background_color>
     <actions>

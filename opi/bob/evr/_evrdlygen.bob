@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-01-10 17:25:33 by agaget-->
+<!--Saved on 2025-03-03 07:58:25 by suljoti-->
 <display version="2.0.0">
   <name>evr_dlygen</name>
   <width>523</width>
@@ -14,10 +14,6 @@
     <x>86</x>
     <width>37</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -33,10 +29,6 @@
     <x>128</x>
     <width>109</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -52,10 +44,6 @@
     <x>266</x>
     <width>73</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -129,10 +117,6 @@
     <x>374</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -148,10 +132,6 @@
     <x>398</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -167,10 +147,6 @@
     <x>422</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -226,10 +202,6 @@
     <y>20</y>
     <width>354</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <format>6</format>
     <actions>
     </actions>
@@ -245,10 +217,6 @@
     <x>451</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -264,10 +232,6 @@
     <x>475</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -283,10 +247,6 @@
     <x>499</x>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -303,10 +263,6 @@
     <y>20</y>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -323,10 +279,6 @@
     <y>20</y>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>
@@ -343,10 +295,6 @@
     <y>20</y>
     <width>24</width>
     <height>19</height>
-    <foreground_color>
-      <color name="Write_Foreground" red="0" green="255" blue="255">
-      </color>
-    </foreground_color>
     <show_units>false</show_units>
     <horizontal_alignment>2</horizontal_alignment>
     <actions>

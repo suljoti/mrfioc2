@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-03-03 07:34:54 by suljoti-->
+<!--Saved on 2025-03-03 08:18:49 by suljoti-->
 <display version="2.0.0">
   <name>BESSY MRF Timing System</name>
   <width>150</width>
@@ -570,5 +570,23 @@
     <width>80</width>
     <height>40</height>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>EVR0-1W1S1G:Pll-Sts</pv_name>
+    <x>267</x>
+    <y>258</y>
+    <width>1</width>
+    <height>1</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>EVR0-1W1S1G:Pll-Sts</pv_name>
+    <x>260</x>
+    <y>248</y>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
   </widget>
 </display>
